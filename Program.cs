@@ -49,11 +49,8 @@ namespace Epam_Task4
             }
             finally
             {
-                if (number != 0)
-                {
-                    int result = Factorial(number);
-                    Console.WriteLine($"{number}!= {result}");
-                }
+                int result = Factorial(number);
+                Console.WriteLine($"{number}!= {result}");
             }
         }
     }
